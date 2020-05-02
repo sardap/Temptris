@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{81F62ADD-D846-4DC8-8CD1-4E31E803E3F6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TemptureBlockGameGame</RootNamespace>
+    <AssemblyName>TemptureBlockGameGame</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CoordinateSharp, Version=1.1.3.8, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\Paultis\packages\CoordinateSharp.1.1.3.8\lib\net40\CoordinateSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="FubarCoder.RestSharp.Portable.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=be81bb0f53eab22f, processorArchitecture=MSIL">
+      <HintPath>..\Paultis\packages\FubarCoder.RestSharp.Portable.Core.4.0.8\lib\net45\FubarCoder.RestSharp.Portable.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="FubarCoder.RestSharp.Portable.HttpClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=be81bb0f53eab22f, processorArchitecture=MSIL">
+      <HintPath>..\Paultis\packages\FubarCoder.RestSharp.Portable.HttpClient.4.0.8\lib\net45\FubarCoder.RestSharp.Portable.HttpClient.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Extended, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\Paultis\packages\MonoGame.Extended.1.1.0\lib\portable-net45+win8+wpa81\MonoGame.Extended.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\Paultis\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\APIKeyManger.cs" />
+    <Compile Include="src\BlockBlueprint.cs" />
+    <Compile Include="src\BlockBluePrintGrid.cs" />
+    <Compile Include="src\BlockBlueprintLibary.cs" />
+    <Compile Include="src\Cell.cs" />
+    <Compile Include="src\ColorTime.cs" />
+    <Compile Include="src\ColorUtils.cs" />
+    <Compile Include="src\Consts.cs" />
+    <Compile Include="src\Directions.cs" />
+    <Compile Include="src\Exestion.cs" />
+    <Compile Include="src\ExtensionMethods.cs" />
+    <Compile Include="src\ExtraColors.cs" />
+    <Compile Include="src\FontManger.cs" />
+    <Compile Include="src\GameRunner.cs" />
+    <Compile Include="src\Grid.cs" />
+    <Compile Include="src\GridColorEntry.cs" />
+    <Compile Include="src\IBlockBluePrint.cs" />
+    <Compile Include="src\IGameObject.cs" />
+    <Compile Include="src\IInfoRow.cs" />
+    <Compile Include="src\IKeyboardInputManger.cs" />
+    <Compile Include="src\InfoBar.cs" />
+    <Compile Include="src\InternatonalTime.cs" />
+    <Compile Include="src\IWeatherInfo.cs" />
+    <Compile Include="src\IWeatherNotifcation.cs" />
+    <Compile Include="src\KeyboardInputManger.cs" />
+    <Compile Include="src\LessThanTable.cs" />
+    <Compile Include="src\Location.cs" />
+    <Compile Include="src\OddsTable.cs" />
+    <Compile Include="src\OpenWeatherInfo.cs" />
+    <Compile Include="src\PaulFileUtils.cs" />
+    <Compile Include="src\Score.cs" />
+    <Compile Include="src\ScoreInfoRow.cs" />
+    <Compile Include="src\SelectedPlace.cs" />
+    <Compile Include="src\TemptureConverter.cs" />
+    <Compile Include="src\TemptureMessurements.cs" />
+    <Compile Include="src\TestWeather.cs" />
+    <Compile Include="src\TextInfoRow.cs" />
+    <Compile Include="src\Utils.cs" />
+    <Compile Include="src\WeatherNotifcation.cs" />
+    <Compile Include="src\WeatherNotifer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

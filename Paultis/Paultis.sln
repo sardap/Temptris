@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemptureBlockGame", "TemptureBlockGame.csproj", "{7BF926BE-A400-4C0A-B810-280D2CEAF56C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemptureBlockGameGame", "..\TemptureBlockGameGame\TemptureBlockGameGame.csproj", "{81F62ADD-D846-4DC8-8CD1-4E31E803E3F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempNerualNet", "TempNerualNet\TempNerualNet.csproj", "{0877A671-ED12-4850-BE62-9D996D5AB676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Textgame", "Textgame\Textgame.csproj", "{8DE2F707-94CA-4321-A7D1-B556E5DE9535}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BF926BE-A400-4C0A-B810-280D2CEAF56C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF926BE-A400-4C0A-B810-280D2CEAF56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF926BE-A400-4C0A-B810-280D2CEAF56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF926BE-A400-4C0A-B810-280D2CEAF56C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81F62ADD-D846-4DC8-8CD1-4E31E803E3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F62ADD-D846-4DC8-8CD1-4E31E803E3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F62ADD-D846-4DC8-8CD1-4E31E803E3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F62ADD-D846-4DC8-8CD1-4E31E803E3F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0877A671-ED12-4850-BE62-9D996D5AB676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0877A671-ED12-4850-BE62-9D996D5AB676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0877A671-ED12-4850-BE62-9D996D5AB676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0877A671-ED12-4850-BE62-9D996D5AB676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE2F707-94CA-4321-A7D1-B556E5DE9535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE2F707-94CA-4321-A7D1-B556E5DE9535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE2F707-94CA-4321-A7D1-B556E5DE9535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE2F707-94CA-4321-A7D1-B556E5DE9535}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC90D426-E6A1-4136-A3C2-5966A38ED47E}
+	EndGlobalSection
+EndGlobal
